@@ -1,6 +1,11 @@
+/* General Styling */
 * {
   margin: 0;
   padding: 0;
+}
+
+ul li {
+  display: inline;
 }
 
 a {
@@ -16,6 +21,22 @@ a:hover {
   color: grey;
 }
 
+/* Main Content styling */
+
+header {
+  background-color: grey;
+}
+
+.title {
+  display: inline;
+  text-align: center;
+}
+
+body {
+  background-color: #fffaf0;
+}
+
+/* Footer styling */
 footer {
   text-align: center;
   margin: 0px;
@@ -29,6 +50,28 @@ footer {
   color: white;
 }
 
-#socialMedia {
-  width: 100%;
+.socials {
+  font-size: 36px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.instagram,
+.facebook,
+.twitter,
+.pinterest,
+.youtube,
+.linkedin {
+  border-radius: 25%;
+}
+
+.madeWith {
+  font-size: 36px;
+}
+
+.copyright {
+  color: white;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 12px;
 }
