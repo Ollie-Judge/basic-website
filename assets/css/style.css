@@ -6,6 +6,8 @@
 
 ul li {
   display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 a {
@@ -18,29 +20,40 @@ a:visited {
 }
 
 a:hover {
-  color: grey;
+  color: #636c6e;
 }
 
 /* Main Content styling */
 
+.siteTitle:hover {
+  color: black;
+}
+
 header {
-  text-align: center;
-  background-color: grey;
+  padding-left: 26px;
+  padding-top: 26px;
+  text-align: left;
+  font-family: "Noto Serif", serif;
 }
 
 .title {
-  display: inline;
-  text-align: center;
+  display: inline-block;
 }
 
 nav {
-  margin-left: 1%;
-  text-align: left;
+  padding-right: 26px;
+  padding-top: 16px;
+  text-align: right;
   font-size: larger;
 }
 
 body {
-  background-color: #fffaf0;
+  background-color: #fffafa;
+  font-family: "Quicksand", sans-serif;
+}
+
+main {
+  padding-top: 26px;
 }
 
 /* Footer styling */
@@ -58,6 +71,7 @@ footer {
 }
 
 h4 {
+  font-size: 15px;
   color: white;
 }
 
