@@ -44,15 +44,17 @@
     <main>
       <h2 class="contactTitle">Contact Us</h2>
 
-      <form>
-        <label>Enter Your Name Here:</label>
-        <input type="text" placeholder="Name" required />
+      <form id="contactForm" action="/form/submit" method="POST">
+        <label for="name">Enter Your Name Here:</label>
+        <input class="form-input" type="text" name="name" id="name" />
 
-        <label>Enter Your Email Here:</label>
-        <input type="email" placeholder="email" required />
+        <label for="email">Enter Your Email Here:</label>
+        <input class="form-input" type="email" name="email" id="email" />
 
         <label>Enter Your Message Here:</label>
-        <textarea placeholder="Message" rows="5" required></textarea>
+        <textarea class="form-textarea" type="text"></textarea>
+
+        <input class="submit" type="submit" value="Submit" />
       </form>
     </main>
     <footer>
@@ -98,7 +100,7 @@
         </ul>
       </div>
 
-      <h4><i>This Website Is Made With</i></h4>
+      <h5><i>This Website Is Made With</i></h5>
 
       <div class="madeWith">
         <i class="fa fa-html5"></i>

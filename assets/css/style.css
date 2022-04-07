@@ -83,12 +83,47 @@ main {
 
 .contactTitle {
   padding-top: 16px;
+  margin-bottom: 16px;
   text-align: center;
+}
+
+label {
+  text-align: left;
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 form {
   text-align: center;
-  max-width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form-input,
+.form-textarea {
+  padding: 5px 0 5px 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.submit {
+  margin-top: 26px;
+  margin-bottom: 150px;
+  height: 2.75em;
+  width: 9em;
+  text-decoration: none;
+  background-color: #7aa39a;
+  font-size: 1.2em;
+  border: none;
+  font-family: "Noto Serif", serif;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #5d877e;
 }
 
 /* Footer styling */
@@ -105,9 +140,15 @@ footer {
   color: white;
 }
 
-h4 {
+h4,
+h5 {
+  padding-top: 16px;
   font-size: 15px;
   color: white;
+}
+
+h5 {
+  padding-bottom: 16px;
 }
 
 .socials {
