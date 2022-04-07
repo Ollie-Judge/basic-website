@@ -50,6 +50,10 @@ footer {
   color: white;
 }
 
+h4 {
+  color: white;
+}
+
 .socials {
   font-size: 36px;
   padding-top: 24px;
@@ -65,13 +69,20 @@ footer {
   border-radius: 25%;
 }
 
+.list-inline-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .madeWith {
   font-size: 36px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
 }
 
 .copyright {
   color: white;
   padding-top: 24px;
   padding-bottom: 24px;
-  font-size: 12px;
+  font-size: 14px;
 }
