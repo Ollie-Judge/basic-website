@@ -53,6 +53,29 @@ body {
 }
 
 main {
+  text-align: center;
+  padding-top: 26px;
+}
+
+/* About US page */
+
+.aboutTitle {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.aboutContent {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.about1,
+.about2,
+.about3,
+.about4,
+.about5,
+.about6 {
   padding-top: 26px;
 }
 
