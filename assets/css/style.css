@@ -57,6 +57,44 @@ main {
   padding-top: 26px;
 }
 
+/* Home Page */
+
+.content1 {
+  background-color: #7aa39a;
+  height: 50vh;
+  width: 50vw;
+  margin: 7em auto 10em 15em;
+  box-shadow: 3vw 4vh;
+}
+
+.content2 {
+  background-color: #9a7aa3;
+  height: 50vh;
+  width: 50vw;
+  margin: 4em 15em 10em auto;
+  box-shadow: -3vw 4vh;
+}
+
+.content3 {
+  background-color: #a39a7a;
+  height: 50vh;
+  width: 50vw;
+  margin: 7em auto 10em 15em;
+  box-shadow: 3vw 4vh;
+}
+
+.content1:hover {
+  background-color: #a1beb8;
+}
+
+.content2:hover {
+  background-color: #b8a1be;
+}
+
+.content3:hover {
+  background-color: #beb8a1;
+}
+
 /* About US page */
 
 .aboutTitle {
@@ -77,6 +115,10 @@ main {
 .about5,
 .about6 {
   padding-top: 26px;
+}
+
+.about6 {
+  padding-bottom: 26px;
 }
 
 /* contact form page */
