@@ -24,12 +24,19 @@ a:hover {
 /* Main Content styling */
 
 header {
+  text-align: center;
   background-color: grey;
 }
 
 .title {
   display: inline;
   text-align: center;
+}
+
+nav {
+  margin-left: 1%;
+  text-align: left;
+  font-size: larger;
 }
 
 body {
