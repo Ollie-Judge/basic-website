@@ -63,7 +63,7 @@ main {
   background-color: #7aa39a;
   height: 50vh;
   width: 50vw;
-  margin: 7em auto 10em 15em;
+  margin: 5vh auto 20vh 10vw;
   box-shadow: 3vw 4vh;
 }
 
@@ -76,7 +76,7 @@ main {
   background-color: #9a7aa3;
   height: 50vh;
   width: 50vw;
-  margin: 4em 15em 10em auto;
+  margin: 3vh 10vw 20vh auto;
   box-shadow: -3vw 4vh;
 }
 
@@ -91,7 +91,7 @@ main {
   background-color: #a39a7a;
   height: 50vh;
   width: 50vw;
-  margin: 7em auto 10em 15em;
+  margin: 5vh auto 20vh 10vw;
   box-shadow: 3vw 4vh;
 }
 
