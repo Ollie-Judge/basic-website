@@ -33,3 +33,5 @@ Basic Website™ is the industry standard in Basic responsive websites, comprisi
 ---
 
 ## Credits
+
+- The photos in the photo gallery came from here: https://www.pexels.com/
