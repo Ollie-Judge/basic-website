@@ -9,3 +9,8 @@ colourChange.addEventListener("click", function () {
 
   bodyChange.style.background = randomColour;
 });
+
+function play() {
+  var audio = document.getElementById("audio");
+  audio.play();
+}

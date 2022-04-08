@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
 ul li {
@@ -69,7 +70,13 @@ main {
 
 .paragraph {
   margin: 30px;
-  font-size: 1vw;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 640px) {
+  .paragraph {
+    font-size: 10x;
+  }
 }
 
 .content2 {
@@ -95,17 +102,11 @@ main {
   box-shadow: 3vw 4vh;
 }
 
-.game {
-  margin-top: 26px;
-  height: 5vh;
-  width: 7vw;
-  background-color: #7aa39a;
-  border: 2px solid black;
+.audioButton {
+  height: 7vh;
+  width: 9vw;
+  margin-top: 16px;
   cursor: pointer;
-}
-
-.game:hover {
-  background-color: #5d877e;
 }
 
 .content1:hover {
