@@ -80,6 +80,13 @@ main {
   box-shadow: -3vw 4vh;
 }
 
+.video {
+  height: 40vh;
+  width: 35vw;
+  text-align: center;
+  margin-top: 30px;
+}
+
 .content3 {
   background-color: #a39a7a;
   height: 50vh;
@@ -94,18 +101,15 @@ main {
   width: 7vw;
   background-color: #7aa39a;
   border: 2px solid black;
+  cursor: pointer;
+}
+
+.game:hover {
+  background-color: #5d877e;
 }
 
 .content1:hover {
   background-color: #a1beb8;
-}
-
-.content2:hover {
-  background-color: #b8a1be;
-}
-
-.content3:hover {
-  background-color: #beb8a1;
 }
 
 /* About US page */
@@ -175,6 +179,7 @@ form {
   border: none;
   font-family: "Noto Serif", serif;
   cursor: pointer;
+  border: 2px solid black;
 }
 
 .submit:hover {
