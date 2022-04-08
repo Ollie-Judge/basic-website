@@ -1,0 +1,6 @@
+.container {
+  margin: 3.5vh 4vw;
+  display: grid;
+  row-gap: 4em;
+  grid-template-columns: auto auto auto;
+}
