@@ -105,10 +105,13 @@ main {
 }
 
 .audioButton {
+  background-color: #7aa39a;
   height: 7vh;
   width: 9vw;
   margin-top: 16px;
   cursor: pointer;
+  border: 2px solid black;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 640px) {
