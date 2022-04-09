@@ -80,6 +80,7 @@ main {
 }
 
 .content2 {
+  overflow: hidden;
   background-color: #9a7aa3;
   height: 50vh;
   width: 50vw;
@@ -95,6 +96,7 @@ main {
 }
 
 .content3 {
+  overflow: hidden;
   background-color: #a39a7a;
   height: 50vh;
   width: 50vw;
@@ -107,6 +109,12 @@ main {
   width: 9vw;
   margin-top: 16px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .audioButton {
+    width: 20vw;
+  }
 }
 
 .content1:hover {
