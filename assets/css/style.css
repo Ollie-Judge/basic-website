@@ -60,6 +60,7 @@ main {
 /* Home Page */
 
 .content1 {
+  overflow: hidden;
   background-color: #7aa39a;
   height: 50vh;
   width: 50vw;
@@ -74,7 +75,7 @@ main {
 
 @media screen and (max-width: 640px) {
   .paragraph {
-    font-size: 10x;
+    font-size: 0.6em;
   }
 }
 
