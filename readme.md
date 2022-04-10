@@ -18,10 +18,6 @@ Basic Website™ is the industry standard in Basic responsive websites, comprisi
 
 ---
 
-## Wireframes
-
----
-
 ## Features
 
 - Responsive on all screen sizes
