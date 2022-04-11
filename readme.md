@@ -50,12 +50,6 @@ Basic Website™ is the industry standard in Basic responsive websites, comprisi
 - The website was tested on multiple screen sizes and on multiple devices
 - The website passed all 3 validation criteria of HTML, CSS and JavaScript
 
-![HTML Passed Validation Screenshot](assets/img/htmlvalidation.png)
-
-![CSS Passed Validation Screenshot](assets/img/cssvalidation.png)
-
-![JS Passed Validation Screenshot](assets/img/jsvalidation.png)
-
 ---
 
 ## Deployment
